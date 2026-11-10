@@ -1,9 +1,7 @@
 # Microsoft Entra ID
 
-Esta seção reunirá guias de identidade, autenticação e gerenciamento de acessos.
+Esta seção está reservada para documentações sobre identidade, autenticação e gerenciamento de acessos.
 
-## Publicações
+**Nenhum artigo publicado por enquanto.**
 
-- [Acesso Condicional: modelo de documentação](acesso-condicional.md).
-
-**Sugestões de próximos conteúdos:** MFA, revisões de acesso, gerenciamento de funções e autenticação resistente a phishing.
+[Voltar à visão geral da biblioteca](../)

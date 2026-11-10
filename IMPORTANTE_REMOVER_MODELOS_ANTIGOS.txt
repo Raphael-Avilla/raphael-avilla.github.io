@@ -1,0 +1,15 @@
+VERSÃO 5: REMOVER EXEMPLOS ANTIGOS DO REPOSITÓRIO
+
+Ao copiar os arquivos deste ZIP para a pasta do GitHub Desktop, os arquivos antigos que não estão no ZIP NÃO são excluídos automaticamente.
+
+Depois de copiar e substituir os arquivos, abra sua pasta local do repositório e apague SOMENTE os três arquivos abaixo:
+
+1. docs\conhecimento\entra-id\acesso-condicional.md
+2. docs\conhecimento\intune\conformidade-windows.md
+3. docs\projetos\modelo-projeto.md
+
+Deixe os arquivos index.md dentro das respectivas pastas.
+NÃO apague as pastas .git, .github, docs ou os arquivos das certificações.
+
+Volte ao GitHub Desktop e confirme que os três arquivos aparecem como excluídos.
+Faça Commit to main e Push origin para publicar tudo.

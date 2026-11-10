@@ -1,0 +1,32 @@
+{
+  "versao": 1,
+  "descricao": "Projetos publicados no portfólio técnico. Cadastre apenas projetos executados e documentados.",
+  "categorias": [
+    {
+      "id": "identidade",
+      "nome": "Identidade",
+      "icone": "ID"
+    },
+    {
+      "id": "dispositivos",
+      "nome": "Dispositivos",
+      "icone": "IN"
+    },
+    {
+      "id": "seguranca",
+      "nome": "Segurança",
+      "icone": "DF"
+    },
+    {
+      "id": "automacao",
+      "nome": "Automação",
+      "icone": "PS"
+    },
+    {
+      "id": "infraestrutura",
+      "nome": "Infraestrutura",
+      "icone": "TI"
+    }
+  ],
+  "projetos": []
+}

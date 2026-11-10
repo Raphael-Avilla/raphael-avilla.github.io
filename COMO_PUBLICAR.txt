@@ -1,16 +1,21 @@
-ATUALIZAÇÃO V3.3: BADGES DE CERTIFICAÇÃO
+PUBLICAÇÃO DO PORTFÓLIO V5
 
-1. Extraia o ZIP em uma pasta temporária.
-2. Abra o GitHub Desktop e selecione Show in Explorer.
-3. Copie o conteúdo extraído para a pasta do repositório local, substituindo os arquivos existentes.
-4. Confira se a nova pasta docs/assets/certificacoes contém quatro imagens PNG.
-5. Faça Commit to main com a mensagem: Adiciona badges aos cartões de certificação.
-6. Clique em Push origin.
-7. Após a publicação automática, abra https://raphael-avilla.github.io/sobre/
+1. Abra o GitHub Desktop e escolha Repository > Show in Explorer.
+2. Extraia o ZIP em outra pasta.
+3. Copie o conteúdo extraído para a pasta do repositório e substitua os arquivos existentes.
+4. Apague SOMENTE os três antigos modelos demonstrativos:
+   docs\conhecimento\entra-id\acesso-condicional.md
+   docs\conhecimento\intune\conformidade-windows.md
+   docs\projetos\modelo-projeto.md
+5. Confira no GitHub Desktop as alterações, incluindo os três arquivos excluídos.
+6. Preencha Summary com 'V5 - Visões gerais e catálogos vazios'.
+7. Clique em Commit to main e depois em Push origin.
+8. Confira a execução de Publicar portfólio técnico na aba Actions.
+9. Teste as páginas https://raphael-avilla.github.io/conhecimento/ e https://raphael-avilla.github.io/projetos/
 
-Alterações desta versão:
-- Quatro badges de certificação inseridos à direita nos cartões.
-- Imagens locais com fundo transparente, extraídas da arte fornecida pelo proprietário.
-- Layout ajustado para computador e celular.
-- Links para validação no Microsoft Learn preservados.
-- A página inicial e as outras seções continuam com a identidade visual anterior.
+Nesta versão, nenhum artigo ou projeto foi inventado ou apresentado como concluído.
+As categorias continuam disponíveis e os catálogos interativos começarão vazios.
+O título personalizado da busca foi preservado.
+A aparência das páginas Início e Sobre foi preservada.
+
+ATENÇÃO: Não apague a pasta oculta .git ou .github.

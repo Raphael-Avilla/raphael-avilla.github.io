@@ -62,8 +62,14 @@
       const fragment = document.createDocumentFragment();
       visible.forEach(item => fragment.append(renderCard(item)));
       results.replaceChildren(fragment);
-      summary.textContent = visible.length === 1 ? "1 material encontrado" : visible.length + " materiais encontrados";
+      const noPublications = state.items.length === 0;
+      summary.textContent = noPublications ? "0 materiais publicados" : (visible.length === 1 ? "1 material encontrado" : visible.length + " materiais encontrados");
       empty.hidden = visible.length !== 0;
+      const emptyTitle = empty.querySelector("h3");
+      const emptyText = empty.querySelector("p");
+      if (emptyTitle) emptyTitle.textContent = noPublications ? "Nenhum material publicado por enquanto" : "Nenhum resultado encontrado";
+      if (emptyText) emptyText.textContent = noPublications ? "A biblioteca está sendo organizada. Explore as categorias acima enquanto os primeiros materiais são preparados." : "Tente outra palavra ou remova o filtro selecionado.";
+      reset.hidden = noPublications;
       error.hidden = true;
       clear.hidden = input.value.length === 0;
     }
@@ -75,7 +81,7 @@
         button.classList.toggle("is-active", active);
         button.setAttribute("aria-pressed", String(active));
       });
-      if (state.items.length) paint();
+      paint();
     }
 
     function clearAll() {
@@ -84,14 +90,14 @@
       input.focus();
     }
 
-    input.addEventListener("input", function () { if (state.items.length) paint(); });
+    input.addEventListener("input", paint);
     input.addEventListener("keydown", function (event) {
       if (event.key === "Escape") {
         input.value = "";
-        if (state.items.length) paint();
+        paint();
       }
     });
-    clear.addEventListener("click", function () { input.value = ""; if (state.items.length) paint(); input.focus(); });
+    clear.addEventListener("click", function () { input.value = ""; paint(); input.focus(); });
     reset.addEventListener("click", clearAll);
     function buildCategoryFilters() {
       const fragment = document.createDocumentFragment();

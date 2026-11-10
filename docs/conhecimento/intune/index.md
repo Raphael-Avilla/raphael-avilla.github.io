@@ -1,9 +1,7 @@
 # Microsoft Intune
 
-Esta seção reunirá documentação sobre inscrição, configuração, gerenciamento e conformidade de dispositivos.
+Esta seção está reservada para documentações sobre gerenciamento, configuração e conformidade de dispositivos.
 
-## Publicações
+**Nenhum artigo publicado por enquanto.**
 
-- [Conformidade de dispositivos Windows: modelo de documentação](conformidade-windows.md).
-
-**Sugestões de próximos conteúdos:** Windows Autopilot, perfis de configuração, atualizações e integração com Acesso Condicional.
+[Voltar à visão geral da biblioteca](../)
