@@ -38,3 +38,7 @@ A apresentação profissional de Raphael Avilla está em `docs/sobre.md`. A apar
 Na página `docs/sobre.md`, cada uma das quatro certificações Microsoft direciona à sua credencial individual no Microsoft Learn. Os endereços foram extraídos dos links de verificação presentes no currículo fornecido pelo autor.
 
 Para atualizar as credenciais, substitua os links no bloco `profile-credentials` em `docs/sobre.md`.
+
+## Layout de certificações V3.2
+
+A seção de certificações de `docs/sobre.md` foi reorganizada como um painel amplo com quatro cartões em duas colunas. Cada cartão é um link para o Microsoft Learn. A seção sobre a forma de trabalhar ganhou um painel horizontal separado para reduzir espaços vazios. Em telas pequenas, os cartões são exibidos em uma coluna. As alterações visuais estão em `docs/stylesheets/extra.css`.

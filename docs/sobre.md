@@ -61,39 +61,67 @@ hide:
     <p class="profile-context">Esses exemplos fazem parte da minha experiência profissional. Os projetos publicados neste site serão documentados separadamente, com seu respectivo contexto e evidências.</p>
   </section>
 
-  <section class="profile-section profile-section--two" aria-label="Certificações e desenvolvimento">
-    <div class="profile-panel">
-      <p class="profile-kicker">CERTIFICAÇÕES MICROSOFT</p>
-      <h2>Estudo que acompanha a prática</h2>
-      <p>As certificações fazem parte do meu desenvolvimento, mas são apenas uma parte da história. Para mim, o aprendizado ganha valor quando posso aplicar, validar e compartilhar o conhecimento.</p>
-      <div class="profile-credentials">
+  <section class="profile-section profile-certifications-section" aria-label="Certificações e desenvolvimento">
+    <div class="profile-panel profile-panel--certifications">
+      <div class="profile-certifications__intro">
+        <div>
+          <p class="profile-kicker">CERTIFICAÇÕES MICROSOFT</p>
+          <h2>Estudo que acompanha a prática</h2>
+        </div>
+        <p>As certificações fazem parte do meu desenvolvimento, mas são apenas uma parte da história. Para mim, o aprendizado ganha valor quando posso aplicar, validar e compartilhar o conhecimento.</p>
+      </div>
+      <div class="profile-credentials" aria-label="Credenciais Microsoft verificáveis">
         <a class="profile-credential" href="https://learn.microsoft.com/api/credentials/share/pt-br/RaphaelAvilla-7955/9FCA88D92CEBD932?sharingId=E92C932E812375C9" target="_blank" rel="noopener noreferrer" aria-label="Ver credencial Microsoft MD-102 em outra aba">
-          <span class="profile-credential__code">MD-102</span>
-          <strong class="profile-credential__name">Endpoint Administrator Associate</strong>
-          <span class="profile-credential__action">Ver credencial ↗</span>
+          <span class="profile-credential__content">
+            <span class="profile-credential__code">MD-102</span>
+            <strong class="profile-credential__name">Endpoint Administrator Associate</strong>
+            <span class="profile-credential__action">Ver credencial <span aria-hidden="true">↗</span></span>
+          </span>
+          <span class="profile-credential__badge" aria-hidden="true">
+            <img src="../assets/certificacoes/md-102.png" alt="" loading="lazy" width="220" height="220">
+          </span>
         </a>
         <a class="profile-credential" href="https://learn.microsoft.com/pt-br/users/raphaelavilla-7955/credentials/1db1adf2c0a29ca0" target="_blank" rel="noopener noreferrer" aria-label="Ver credencial Microsoft SC-900 em outra aba">
-          <span class="profile-credential__code">SC-900</span>
-          <strong class="profile-credential__name">Security, Compliance, and Identity Fundamentals</strong>
-          <span class="profile-credential__action">Ver credencial ↗</span>
+          <span class="profile-credential__content">
+            <span class="profile-credential__code">SC-900</span>
+            <strong class="profile-credential__name">Security, Compliance, and Identity Fundamentals</strong>
+            <span class="profile-credential__action">Ver credencial <span aria-hidden="true">↗</span></span>
+          </span>
+          <span class="profile-credential__badge" aria-hidden="true">
+            <img src="../assets/certificacoes/sc-900.png" alt="" loading="lazy" width="220" height="220">
+          </span>
         </a>
         <a class="profile-credential" href="https://learn.microsoft.com/pt-br/users/raphaelavilla-7955/credentials/2da33c8cb3a975f" target="_blank" rel="noopener noreferrer" aria-label="Ver credencial Microsoft MS-900 em outra aba">
-          <span class="profile-credential__code">MS-900</span>
-          <strong class="profile-credential__name">Microsoft 365 Fundamentals</strong>
-          <span class="profile-credential__action">Ver credencial ↗</span>
+          <span class="profile-credential__content">
+            <span class="profile-credential__code">MS-900</span>
+            <strong class="profile-credential__name">Microsoft 365 Fundamentals</strong>
+            <span class="profile-credential__action">Ver credencial <span aria-hidden="true">↗</span></span>
+          </span>
+          <span class="profile-credential__badge" aria-hidden="true">
+            <img src="../assets/certificacoes/ms-900.png" alt="" loading="lazy" width="220" height="220">
+          </span>
         </a>
         <a class="profile-credential" href="https://learn.microsoft.com/api/credentials/share/pt-br/RaphaelAvilla-7955/31650CD18257D2D?sharingId=E92C932E812375C9" target="_blank" rel="noopener noreferrer" aria-label="Ver credencial Microsoft AZ-900 em outra aba">
-          <span class="profile-credential__code">AZ-900</span>
-          <strong class="profile-credential__name">Azure Fundamentals</strong>
-          <span class="profile-credential__action">Ver credencial ↗</span>
+          <span class="profile-credential__content">
+            <span class="profile-credential__code">AZ-900</span>
+            <strong class="profile-credential__name">Azure Fundamentals</strong>
+            <span class="profile-credential__action">Ver credencial <span aria-hidden="true">↗</span></span>
+          </span>
+          <span class="profile-credential__badge" aria-hidden="true">
+            <img src="../assets/certificacoes/az-900.png" alt="" loading="lazy" width="220" height="220">
+          </span>
         </a>
       </div>
     </div>
     <div class="profile-panel profile-panel--quote">
-      <p class="profile-kicker">COMO EU ENCARO O TRABALHO</p>
-      <h2>Resolver, entender e documentar.</h2>
-      <p>Uma boa implementação precisa funcionar no dia a dia e ser compreensível para quem vai administrá-la depois. Por isso, valorizo o planejamento, os testes, a documentação e a melhoria contínua.</p>
-      <p>Essa forma de trabalhar também orienta os tutoriais e projetos que compartilho neste portal.</p>
+      <div class="profile-quote__heading">
+        <p class="profile-kicker">COMO EU ENCARO O TRABALHO</p>
+        <h2>Resolver, entender e documentar.</h2>
+      </div>
+      <div class="profile-quote__copy">
+        <p>Uma boa implementação precisa funcionar no dia a dia e ser compreensível para quem vai administrá-la depois. Por isso, valorizo o planejamento, os testes, a documentação e a melhoria contínua.</p>
+        <p>Essa forma de trabalhar também orienta os tutoriais e projetos que compartilho neste portal.</p>
+      </div>
     </div>
   </section>
 

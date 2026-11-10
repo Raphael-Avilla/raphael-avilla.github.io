@@ -1,38 +1,16 @@
-PACOTE COMPLETO V2.1: RAPHAEL AVILLA
-==================================
-Destino: https://github.com/Raphael-Avilla/raphael-avilla.github.io
+ATUALIZAÇÃO V3.3: BADGES DE CERTIFICAÇÃO
 
-O QUE FOI ALTERADO
-- zensical.toml: tema, nome, identidade e navegação.
-- docs/stylesheets/extra.css: identidade visual responsiva.
-- docs/index.md: página inicial inteiramente redesenhada.
-- docs/sobre.md: nova apresentação do projeto, sem biografia inventada.
-- docs/contato.md: links públicos já conhecidos.
-- Demais arquivos preservados como modelos e documentação inicial.
+1. Extraia o ZIP em uma pasta temporária.
+2. Abra o GitHub Desktop e selecione Show in Explorer.
+3. Copie o conteúdo extraído para a pasta do repositório local, substituindo os arquivos existentes.
+4. Confira se a nova pasta docs/assets/certificacoes contém quatro imagens PNG.
+5. Faça Commit to main com a mensagem: Adiciona badges aos cartões de certificação.
+6. Clique em Push origin.
+7. Após a publicação automática, abra https://raphael-avilla.github.io/sobre/
 
-PUBLICAR COM GITHUB DESKTOP
-1. Instale e abra https://desktop.github.com/ e entre com a conta Raphael-Avilla.
-2. File > Clone repository, escolha 'Raphael-Avilla/raphael-avilla.github.io' e clique Clone.
-3. No GitHub Desktop, use Repository > Show in Explorer para localizar a pasta clonada.
-4. Extraia este ZIP numa OUTRA pasta temporária. Copie seus arquivos e pastas,
-   EXCETO o próprio COMO_PUBLICAR.txt, para dentro da pasta clonada.
-   Quando o Windows perguntar, escolha substituir os arquivos existentes.
-   Atenção: nunca apague a pasta .git dentro da pasta clonada.
-5. Volte ao GitHub Desktop. Confira as alterações na aba Changes.
-6. Em Summary, escreva: 'Portfólio V2.1: revisão editorial'.
-7. Clique Commit to main e, depois, Push origin.
-8. Acompanhe a publicação em
-   https://github.com/Raphael-Avilla/raphael-avilla.github.io/actions
-9. Acesse https://raphael-avilla.github.io/ e recarregue a página.
-
-ARQUIVOS DO DIA A DIA
-- docs/index.md = página inicial.
-- docs/sobre.md = apresentação.
-- docs/conhecimento/ = tutoriais.
-- docs/projetos/ = projetos práticos.
-- docs/stylesheets/extra.css = identidade visual.
-- zensical.toml = título, menus e configurações.
-
-SEGURANÇA
-Os guias e projetos de exemplo não são experiências reais publicadas.
-Remova informações de ambientes corporativos antes de compartilhar.
+Alterações desta versão:
+- Quatro badges de certificação inseridos à direita nos cartões.
+- Imagens locais com fundo transparente, extraídas da arte fornecida pelo proprietário.
+- Layout ajustado para computador e celular.
+- Links para validação no Microsoft Learn preservados.
+- A página inicial e as outras seções continuam com a identidade visual anterior.
