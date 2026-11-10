@@ -2,7 +2,7 @@
 
 Este é o espaço público de **Raphael Avilla** dedicado ao estudo, à documentação e à aplicação prática de tecnologias do ecossistema Microsoft, especialmente **Microsoft 365, Microsoft Entra ID, Microsoft Intune e segurança**.
 
-A proposta é simples: reunir conhecimento técnico em um lugar organizado, consultável e útil para outros profissionais de TI — e demonstrar não apenas o que foi estudado, mas **como esse conhecimento pode ser aplicado**.
+A proposta é simples: reunir conhecimento técnico em um lugar organizado, consultável e útil para outros profissionais de TI e demonstrar não apenas o que foi estudado, mas **como esse conhecimento pode ser aplicado**.
 
 ## O que você encontra aqui
 
