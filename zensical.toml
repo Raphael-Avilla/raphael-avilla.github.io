@@ -31,6 +31,7 @@ language = "pt-BR"
 features = ["navigation.sections", "navigation.top"]
 
 [project.theme.palette]
-scheme = "default"
-primary = "indigo"
+scheme = "slate"
+primary = "blue"
 accent = "cyan"
+
