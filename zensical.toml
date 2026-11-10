@@ -17,11 +17,11 @@ nav = [
     { "Visão geral" = "conhecimento/index.md" },
     { "Microsoft Entra ID" = [
       "conhecimento/entra-id/index.md",
-      { "Acesso Condicional — modelo" = "conhecimento/entra-id/acesso-condicional.md" }
+      { "Acesso Condicional: modelo" = "conhecimento/entra-id/acesso-condicional.md" }
     ] },
     { "Microsoft Intune" = [
       "conhecimento/intune/index.md",
-      { "Conformidade Windows — modelo" = "conhecimento/intune/conformidade-windows.md" }
+      { "Conformidade Windows: modelo" = "conhecimento/intune/conformidade-windows.md" }
     ] },
     { "Microsoft Defender" = "conhecimento/defender/index.md" }
   ] },

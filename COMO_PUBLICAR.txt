@@ -1,4 +1,4 @@
-PACOTE COMPLETO V2 — RAPHAEL AVILLA
+PACOTE COMPLETO V2.1: RAPHAEL AVILLA
 ==================================
 Destino: https://github.com/Raphael-Avilla/raphael-avilla.github.io
 
@@ -19,7 +19,7 @@ PUBLICAR COM GITHUB DESKTOP
    Quando o Windows perguntar, escolha substituir os arquivos existentes.
    Atenção: nunca apague a pasta .git dentro da pasta clonada.
 5. Volte ao GitHub Desktop. Confira as alterações na aba Changes.
-6. Em Summary, escreva: 'Portfólio V2 - identidade visual completa'.
+6. Em Summary, escreva: 'Portfólio V2.1: revisão editorial'.
 7. Clique Commit to main e, depois, Push origin.
 8. Acompanhe a publicação em
    https://github.com/Raphael-Avilla/raphael-avilla.github.io/actions

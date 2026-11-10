@@ -1,6 +1,6 @@
 # Políticas de conformidade Windows no Intune: modelo
 
-> **MODELO DIDÁTICO — não é um relato de implementação realizada.** Complete com os dados do seu laboratório.
+> **MODELO DIDÁTICO: este conteúdo não descreve uma implementação realizada.** Complete com os dados do seu laboratório.
 
 ## Objetivo
 

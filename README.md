@@ -1,4 +1,4 @@
-# Raphael Avilla — Microsoft Cloud & Security
+# Raphael Avilla | Microsoft Cloud & Security
 
 Portfólio técnico e base de conhecimento pública com tutoriais, laboratórios e modelos de projetos no ecossistema Microsoft.
 
@@ -6,14 +6,14 @@ Portfólio técnico e base de conhecimento pública com tutoriais, laboratórios
 
 ## Organização
 
-- `docs/index.md` — página inicial e destaques.
-- `docs/sobre.md` — apresentação do portfólio.
-- `docs/conhecimento/` — documentação e tutoriais por tecnologia.
-- `docs/projetos/` — projetos práticos e modelos de estudos de caso.
-- `docs/scripts/` — roteiros e automações.
-- `docs/stylesheets/extra.css` — identidade visual responsiva.
-- `zensical.toml` — estrutura do site, menus, tema e metadados.
-- `.github/workflows/docs.yml` — publicação automática via GitHub Actions.
+- `docs/index.md`: página inicial e destaques.
+- `docs/sobre.md`: apresentação do portfólio.
+- `docs/conhecimento/`: documentação e tutoriais por tecnologia.
+- `docs/projetos/`: projetos práticos e modelos de estudos de caso.
+- `docs/scripts/`: roteiros e automações.
+- `docs/stylesheets/extra.css`: identidade visual responsiva.
+- `zensical.toml`: estrutura do site, menus, tema e metadados.
+- `.github/workflows/docs.yml`: publicação automática via GitHub Actions.
 
 ## Como atualizar
 

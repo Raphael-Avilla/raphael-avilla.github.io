@@ -1,6 +1,6 @@
 # Acesso Condicional: modelo de documentação
 
-> **MODELO DIDÁTICO — não é um relato de implementação realizada.** Substitua cada seção pelos passos e evidências do seu próprio laboratório.
+> **MODELO DIDÁTICO: este conteúdo não descreve uma implementação realizada.** Substitua cada seção pelos passos e evidências do seu próprio laboratório.
 
 ## Objetivo
 

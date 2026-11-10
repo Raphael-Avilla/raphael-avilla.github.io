@@ -4,6 +4,6 @@ Esta seção reunirá documentação sobre inscrição, configuração, gerencia
 
 ## Publicações
 
-- [Conformidade de dispositivos Windows — modelo de documentação](conformidade-windows.md).
+- [Conformidade de dispositivos Windows: modelo de documentação](conformidade-windows.md).
 
 **Sugestões de próximos conteúdos:** Windows Autopilot, perfis de configuração, atualizações e integração com Acesso Condicional.
