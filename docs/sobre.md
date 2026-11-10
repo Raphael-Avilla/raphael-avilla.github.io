@@ -78,7 +78,7 @@ hide:
             <span class="profile-credential__action">Ver credencial <span aria-hidden="true">↗</span></span>
           </span>
           <span class="profile-credential__badge" aria-hidden="true">
-            <img src="../assets/certificacoes/md-102.png" alt="" loading="lazy" width="220" height="220">
+            <img src="../assets/certificacoes/md-102.png" alt="" loading="lazy" width="180" height="180">
           </span>
         </a>
         <a class="profile-credential" href="https://learn.microsoft.com/pt-br/users/raphaelavilla-7955/credentials/1db1adf2c0a29ca0" target="_blank" rel="noopener noreferrer" aria-label="Ver credencial Microsoft SC-900 em outra aba">
@@ -88,7 +88,7 @@ hide:
             <span class="profile-credential__action">Ver credencial <span aria-hidden="true">↗</span></span>
           </span>
           <span class="profile-credential__badge" aria-hidden="true">
-            <img src="../assets/certificacoes/sc-900.png" alt="" loading="lazy" width="220" height="220">
+            <img src="../assets/certificacoes/sc-900.png" alt="" loading="lazy" width="180" height="180">
           </span>
         </a>
         <a class="profile-credential" href="https://learn.microsoft.com/pt-br/users/raphaelavilla-7955/credentials/2da33c8cb3a975f" target="_blank" rel="noopener noreferrer" aria-label="Ver credencial Microsoft MS-900 em outra aba">
@@ -98,7 +98,7 @@ hide:
             <span class="profile-credential__action">Ver credencial <span aria-hidden="true">↗</span></span>
           </span>
           <span class="profile-credential__badge" aria-hidden="true">
-            <img src="../assets/certificacoes/ms-900.png" alt="" loading="lazy" width="220" height="220">
+            <img src="../assets/certificacoes/ms-900.png" alt="" loading="lazy" width="180" height="180">
           </span>
         </a>
         <a class="profile-credential" href="https://learn.microsoft.com/api/credentials/share/pt-br/RaphaelAvilla-7955/31650CD18257D2D?sharingId=E92C932E812375C9" target="_blank" rel="noopener noreferrer" aria-label="Ver credencial Microsoft AZ-900 em outra aba">
@@ -108,7 +108,7 @@ hide:
             <span class="profile-credential__action">Ver credencial <span aria-hidden="true">↗</span></span>
           </span>
           <span class="profile-credential__badge" aria-hidden="true">
-            <img src="../assets/certificacoes/az-900.png" alt="" loading="lazy" width="220" height="220">
+            <img src="../assets/certificacoes/az-900.png" alt="" loading="lazy" width="180" height="180">
           </span>
         </a>
       </div>
