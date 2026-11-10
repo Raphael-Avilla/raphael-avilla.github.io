@@ -32,3 +32,9 @@ Os documentos identificados como **modelo** são estruturas didáticas e não re
 ## Sobre o autor
 
 A apresentação profissional de Raphael Avilla está em `docs/sobre.md`. A aparência da página é definida em `docs/stylesheets/extra.css`.
+
+## Certificações verificáveis
+
+Na página `docs/sobre.md`, cada uma das quatro certificações Microsoft direciona à sua credencial individual no Microsoft Learn. Os endereços foram extraídos dos links de verificação presentes no currículo fornecido pelo autor.
+
+Para atualizar as credenciais, substitua os links no bloco `profile-credentials` em `docs/sobre.md`.

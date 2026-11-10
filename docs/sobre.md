@@ -67,10 +67,26 @@ hide:
       <h2>Estudo que acompanha a prática</h2>
       <p>As certificações fazem parte do meu desenvolvimento, mas são apenas uma parte da história. Para mim, o aprendizado ganha valor quando posso aplicar, validar e compartilhar o conhecimento.</p>
       <div class="profile-credentials">
-        <div><span>MD-102</span><strong>Endpoint Administrator Associate</strong></div>
-        <div><span>SC-900</span><strong>Security, Compliance, and Identity Fundamentals</strong></div>
-        <div><span>MS-900</span><strong>Microsoft 365 Fundamentals</strong></div>
-        <div><span>AZ-900</span><strong>Azure Fundamentals</strong></div>
+        <a class="profile-credential" href="https://learn.microsoft.com/api/credentials/share/pt-br/RaphaelAvilla-7955/9FCA88D92CEBD932?sharingId=E92C932E812375C9" target="_blank" rel="noopener noreferrer" aria-label="Ver credencial Microsoft MD-102 em outra aba">
+          <span class="profile-credential__code">MD-102</span>
+          <strong class="profile-credential__name">Endpoint Administrator Associate</strong>
+          <span class="profile-credential__action">Ver credencial ↗</span>
+        </a>
+        <a class="profile-credential" href="https://learn.microsoft.com/pt-br/users/raphaelavilla-7955/credentials/1db1adf2c0a29ca0" target="_blank" rel="noopener noreferrer" aria-label="Ver credencial Microsoft SC-900 em outra aba">
+          <span class="profile-credential__code">SC-900</span>
+          <strong class="profile-credential__name">Security, Compliance, and Identity Fundamentals</strong>
+          <span class="profile-credential__action">Ver credencial ↗</span>
+        </a>
+        <a class="profile-credential" href="https://learn.microsoft.com/pt-br/users/raphaelavilla-7955/credentials/2da33c8cb3a975f" target="_blank" rel="noopener noreferrer" aria-label="Ver credencial Microsoft MS-900 em outra aba">
+          <span class="profile-credential__code">MS-900</span>
+          <strong class="profile-credential__name">Microsoft 365 Fundamentals</strong>
+          <span class="profile-credential__action">Ver credencial ↗</span>
+        </a>
+        <a class="profile-credential" href="https://learn.microsoft.com/api/credentials/share/pt-br/RaphaelAvilla-7955/31650CD18257D2D?sharingId=E92C932E812375C9" target="_blank" rel="noopener noreferrer" aria-label="Ver credencial Microsoft AZ-900 em outra aba">
+          <span class="profile-credential__code">AZ-900</span>
+          <strong class="profile-credential__name">Azure Fundamentals</strong>
+          <span class="profile-credential__action">Ver credencial ↗</span>
+        </a>
       </div>
     </div>
     <div class="profile-panel profile-panel--quote">
