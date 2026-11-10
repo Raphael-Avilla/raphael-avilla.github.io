@@ -1,0 +1,36 @@
+[project]
+site_name = "Microsoft Cloud & Security | Portfólio Técnico"
+site_description = "Tutoriais, estudos e projetos práticos sobre Microsoft 365 e segurança."
+# Após criar seu usuário, você pode adicionar esta linha, substituindo SEUUSUARIO:
+# site_url = "https://SEUUSUARIO.github.io/"
+nav = [
+  { "Início" = "index.md" },
+  { "Sobre o portfólio" = "sobre.md" },
+  { "Base de conhecimento" = [
+    { "Visão geral" = "conhecimento/index.md" },
+    { "Microsoft Entra ID" = [
+      "conhecimento/entra-id/index.md",
+      { "Acesso Condicional — modelo" = "conhecimento/entra-id/acesso-condicional.md" }
+    ] },
+    { "Microsoft Intune" = [
+      "conhecimento/intune/index.md",
+      { "Conformidade Windows — modelo" = "conhecimento/intune/conformidade-windows.md" }
+    ] },
+    { "Microsoft Defender" = "conhecimento/defender/index.md" }
+  ] },
+  { "Projetos práticos" = [
+    "projetos/index.md",
+    { "Modelo de projeto" = "projetos/modelo-projeto.md" }
+  ] },
+  { "Scripts e automações" = "scripts/index.md" },
+  { "Contato" = "contato.md" }
+]
+
+[project.theme]
+language = "pt-BR"
+features = ["navigation.sections", "navigation.top"]
+
+[project.theme.palette]
+scheme = "default"
+primary = "indigo"
+accent = "cyan"
