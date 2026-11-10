@@ -27,3 +27,8 @@ O GitHub Actions instala o Zensical, gera os arquivos HTML e publica automaticam
 ## Transparência e segurança
 
 Os documentos identificados como **modelo** são estruturas didáticas e não representam implementações concluídas. Quando forem publicados projetos reais ou de laboratório, seus resultados e contexto serão identificados. Não publicar informações sensíveis de usuários, organizações ou tenants.
+
+
+## Sobre o autor
+
+A apresentação profissional de Raphael Avilla está em `docs/sobre.md`. A aparência da página é definida em `docs/stylesheets/extra.css`.
