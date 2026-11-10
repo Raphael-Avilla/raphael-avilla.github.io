@@ -42,3 +42,7 @@ Para atualizar as credenciais, substitua os links no bloco `profile-credentials`
 ## Layout de certificações V3.2
 
 A seção de certificações de `docs/sobre.md` foi reorganizada como um painel amplo com quatro cartões em duas colunas. Cada cartão é um link para o Microsoft Learn. A seção sobre a forma de trabalhar ganhou um painel horizontal separado para reduzir espaços vazios. Em telas pequenas, os cartões são exibidos em uma coluna. As alterações visuais estão em `docs/stylesheets/extra.css`.
+
+## Catálogo pesquisável
+
+A página `docs/conhecimento/index.md` reúne um catálogo de conteúdos com pesquisa e filtros por tecnologia. A lista é mantida em `docs/assets/dados/catalogo-conhecimento.json`, e o comportamento está no arquivo `docs/javascripts/conhecimento.js`. Veja `COMO_ATUALIZAR_BASE.md` para incluir novas páginas.

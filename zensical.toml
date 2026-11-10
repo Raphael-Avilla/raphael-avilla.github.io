@@ -8,6 +8,7 @@ site_url = "https://raphael-avilla.github.io/"
 repo_url = "https://github.com/Raphael-Avilla/raphael-avilla.github.io"
 repo_name = "Ver no GitHub"
 extra_css = ["stylesheets/extra.css"]
+extra_javascript = ["javascripts/conhecimento.js"]
 
 # Para renomear páginas ou mover links do menu, edite esta lista.
 nav = [

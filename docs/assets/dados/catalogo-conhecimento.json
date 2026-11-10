@@ -1,0 +1,149 @@
+{
+  "versao": 1,
+  "descricao": "Catálogo público da base de conhecimento de Raphael Avilla. Páginas de exemplo são identificadas como modelos.",
+  "categorias": [
+    {
+      "id": "entra",
+      "nome": "Entra ID",
+      "icone": "ID"
+    },
+    {
+      "id": "intune",
+      "nome": "Intune",
+      "icone": "IN"
+    },
+    {
+      "id": "defender",
+      "nome": "Defender",
+      "icone": "DF"
+    },
+    {
+      "id": "automacao",
+      "nome": "Automações",
+      "icone": "PS"
+    }
+  ],
+  "materiais": [
+    {
+      "titulo": "Microsoft Entra ID",
+      "descricao": "Explore conteúdos sobre identidade, autenticação, controle de acesso e governança no Microsoft Entra ID.",
+      "categoria": "entra",
+      "tipo": "area",
+      "url": "entra-id/",
+      "etiquetas": [
+        "Identidade",
+        "Autenticação",
+        "Microsoft 365"
+      ],
+      "palavras_chave": [
+        "Microsoft Entra ID",
+        "Azure AD",
+        "IAM",
+        "acessos",
+        "MFA",
+        "Conditional Access",
+        "Zero Trust"
+      ]
+    },
+    {
+      "titulo": "Acesso Condicional: modelo de documentação",
+      "descricao": "Um roteiro didático para estruturar objetivos, condições, testes e validação de políticas de Acesso Condicional.",
+      "categoria": "entra",
+      "tipo": "modelo",
+      "url": "entra-id/acesso-condicional/",
+      "etiquetas": [
+        "Acesso Condicional",
+        "Planejamento",
+        "Validação"
+      ],
+      "palavras_chave": [
+        "Conditional Access",
+        "MFA",
+        "identidade",
+        "segurança",
+        "Entra ID",
+        "políticas"
+      ]
+    },
+    {
+      "titulo": "Microsoft Intune",
+      "descricao": "Documentações sobre gerenciamento de endpoints, inscrição, aplicativos, configurações e conformidade de dispositivos.",
+      "categoria": "intune",
+      "tipo": "area",
+      "url": "intune/",
+      "etiquetas": [
+        "Endpoint Management",
+        "Windows",
+        "Dispositivos"
+      ],
+      "palavras_chave": [
+        "Intune",
+        "MDM",
+        "MAM",
+        "Autopilot",
+        "gestão de dispositivos",
+        "compliance"
+      ]
+    },
+    {
+      "titulo": "Conformidade Windows: modelo de documentação",
+      "descricao": "Estrutura para documentar políticas de conformidade no Intune, com escopo, critérios e evidências de testes.",
+      "categoria": "intune",
+      "tipo": "modelo",
+      "url": "intune/conformidade-windows/",
+      "etiquetas": [
+        "Windows",
+        "Conformidade",
+        "Políticas"
+      ],
+      "palavras_chave": [
+        "Endpoint",
+        "Compliance",
+        "Intune",
+        "dispositivos",
+        "Windows",
+        "regras"
+      ]
+    },
+    {
+      "titulo": "Microsoft Defender",
+      "descricao": "Área dedicada a proteção, investigação, resposta a incidentes e melhoria da postura de segurança.",
+      "categoria": "defender",
+      "tipo": "area",
+      "url": "defender/",
+      "etiquetas": [
+        "Segurança",
+        "Proteção",
+        "Investigação"
+      ],
+      "palavras_chave": [
+        "Defender",
+        "Microsoft 365 Defender",
+        "Endpoint",
+        "incidentes",
+        "ameaças",
+        "segurança"
+      ]
+    },
+    {
+      "titulo": "Scripts e automações",
+      "descricao": "Espaço para procedimentos automatizados, scripts PowerShell e integrações com Microsoft Graph.",
+      "categoria": "automacao",
+      "tipo": "area",
+      "url": "../scripts/",
+      "etiquetas": [
+        "PowerShell",
+        "Microsoft Graph",
+        "Automação"
+      ],
+      "palavras_chave": [
+        "scripts",
+        "Graph API",
+        "PowerShell",
+        "rotinas",
+        "automação",
+        "administração"
+      ]
+    }
+  ]
+}
