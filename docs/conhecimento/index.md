@@ -21,10 +21,8 @@ hide:
 
   <section class="knowledge-explorer" aria-labelledby="knowledge-search-heading">
     <div class="knowledge-explorer__heading">
-      <div><p class="knowledge-kicker">EXPLORE OS MATERIAIS</p><h2 id="knowledge-search-heading">O que você quer aprender?</h2></div>
-      <span class="knowledge-explorer__hint">Busca rápida nesta biblioteca</span>
+      <div><p class="knowledge-kicker">EXPLORE OS MATERIAIS</p><h2 id="knowledge-search-heading">Buscar por assunto, ferramenta ou palavra-chave</h2></div>
     </div>
-    <label class="knowledge-label" for="knowledge-search">Buscar por assunto, ferramenta ou palavra-chave</label>
     <div class="knowledge-search-box">
       <svg class="knowledge-search-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-4.2-4.2"/></svg>
       <input id="knowledge-search" type="search" autocomplete="off" spellcheck="false" placeholder="Ex.: Acesso Condicional, MFA, Intune, Defender..." aria-controls="knowledge-results" />
