@@ -1,20 +1,28 @@
 # Sobre o portfólio
 
-Este portal reúne meu aprendizado e minhas práticas com tecnologias Microsoft, com foco em **Microsoft 365, identidade, gerenciamento de dispositivos e segurança**.
+Este é o espaço público de **Raphael Avilla** dedicado ao estudo, à documentação e à aplicação prática de tecnologias do ecossistema Microsoft, especialmente **Microsoft 365, Microsoft Entra ID, Microsoft Intune e segurança**.
 
-## Por que este projeto existe?
+A proposta é simples: reunir conhecimento técnico em um lugar organizado, consultável e útil para outros profissionais de TI — e demonstrar não apenas o que foi estudado, mas **como esse conhecimento pode ser aplicado**.
 
-Quero disponibilizar documentação clara, passo a passo, que ajude outras pessoas a reproduzir procedimentos e compreender as decisões técnicas por trás deles.
+## O que você encontra aqui
+
+- **Base de conhecimento:** tutoriais e procedimentos com objetivo, pré-requisitos e etapas de validação.
+- **Projetos práticos:** cenários, decisões técnicas, implementações e resultados documentados.
+- **Scripts e automações:** recursos e exemplos reutilizáveis para administração de ambientes Microsoft.
 
 ## Áreas de interesse
 
-- Microsoft Entra ID e governança de identidades.
-- Microsoft Intune e gerenciamento de endpoints.
-- Microsoft Defender e segurança no Microsoft 365.
-- PowerShell e Microsoft Graph para automação.
+- Microsoft Entra ID: autenticação, governança e controle de acesso.
+- Microsoft Intune: gerenciamento, configuração e conformidade de dispositivos.
+- Microsoft Defender: proteção e investigação no contexto Microsoft 365.
+- PowerShell e Microsoft Graph: administração e automações.
 
-## Apresentação profissional
+## Como os projetos são apresentados
 
-**Personalize esta seção antes de divulgar o site.** Inclua uma apresentação breve, sua atuação profissional, certificações conquistadas e os temas em que você possui experiência prática.
+Sempre que relevante, as publicações indicarão se foram realizadas em **laboratório**, **projeto pessoal** ou **ambiente de produção autorizado**. Configurações e capturas de tela são preparadas para não expor informações internas ou dados sensíveis.
 
-**Transparência:** sempre que relevante, cada projeto indicará se foi realizado em laboratório ou em ambiente de produção autorizado.
+As páginas sinalizadas como **modelo** são exemplos de documentação e ainda não representam entregas concluídas.
+
+## Perfil profissional
+
+A seção de experiência, trajetória e certificações será preenchida com informações verificadas antes da divulgação ampla do site. Enquanto isso, você pode explorar a [base de conhecimento](conhecimento/index.md), os [projetos](projetos/index.md) e o [repositório público no GitHub](https://github.com/Raphael-Avilla/raphael-avilla.github.io).

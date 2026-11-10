@@ -1,11 +1,12 @@
-# Contato
+# Contato e conexões
 
-Você pode entrar em contato para discutir documentação, projetos e boas práticas em Microsoft Cloud & Security.
+Se quiser conversar sobre documentação técnica, estudos ou projetos relacionados a Microsoft Cloud & Security, você pode acompanhar o material publicado no GitHub.
 
-**Personalize antes de divulgar:**
+- **GitHub:** [github.com/Raphael-Avilla](https://github.com/Raphael-Avilla)
+- **Repositório do portfólio:** [raphael-avilla.github.io](https://github.com/Raphael-Avilla/raphael-avilla.github.io)
 
-- LinkedIn: adicione seu endereço de perfil.
-- GitHub: adicione seu endereço de perfil.
-- E-mail profissional (opcional): adicione apenas um endereço que queira tornar público.
+Um link para o LinkedIn profissional poderá ser incluído aqui posteriormente, sem necessidade de reconstruir o site.
 
-Não publique telefone pessoal, credenciais ou dados corporativos sensíveis.
+!!! note "Publicações responsáveis"
+
+    Este portfólio não publica senhas, tokens, dados pessoais de usuários, informações internas de organizações ou detalhes confidenciais de ambientes corporativos.

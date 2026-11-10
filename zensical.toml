@@ -1,11 +1,18 @@
+# Identidade e configuração do portfólio de Raphael Avilla.
+# A aparência do site é definida principalmente em docs/stylesheets/extra.css.
 [project]
-site_name = "Microsoft Cloud & Security | Portfólio Técnico"
-site_description = "Tutoriais, estudos e projetos práticos sobre Microsoft 365 e segurança."
-# Após criar seu usuário, você pode adicionar esta linha, substituindo SEUUSUARIO:
-# site_url = "https://SEUUSUARIO.github.io/"
+site_name = "Raphael Avilla | Microsoft Cloud & Security"
+site_description = "Portfólio técnico de Raphael Avilla: documentações, laboratórios e projetos sobre Microsoft 365, Entra ID, Intune e segurança."
+site_author = "Raphael Avilla"
+site_url = "https://raphael-avilla.github.io/"
+repo_url = "https://github.com/Raphael-Avilla/raphael-avilla.github.io"
+repo_name = "Ver no GitHub"
+extra_css = ["stylesheets/extra.css"]
+
+# Para renomear páginas ou mover links do menu, edite esta lista.
 nav = [
   { "Início" = "index.md" },
-  { "Sobre o portfólio" = "sobre.md" },
+  { "Sobre" = "sobre.md" },
   { "Base de conhecimento" = [
     { "Visão geral" = "conhecimento/index.md" },
     { "Microsoft Entra ID" = [
@@ -28,10 +35,18 @@ nav = [
 
 [project.theme]
 language = "pt-BR"
-features = ["navigation.sections", "navigation.top"]
+features = ["navigation.sections", "navigation.top", "content.code.copy"]
+
+[project.theme.icon]
+logo = "lucide/shield-check"
+repo = "fontawesome/brands/github"
 
 [project.theme.palette]
 scheme = "slate"
 primary = "blue"
 accent = "cyan"
 
+[project.markdown_extensions]
+attr_list = {}
+md_in_html = {}
+admonition = {}
