@@ -1,0 +1,15 @@
+ATUALIZAÇÃO DA PÁGINA DE CONTATO | V5.1
+
+1. Abra o GitHub Desktop e clique em Repository > Show in Explorer.
+2. Extraia o ZIP e copie seu conteúdo para a pasta do repositório.
+3. Quando o Windows perguntar, substitua os arquivos existentes.
+4. Confira no GitHub Desktop as mudanças em docs/contato.md e docs/stylesheets/extra.css.
+5. Em Summary escreva: V5.1: Página de contato personalizada.
+6. Clique em Commit to main e depois em Push origin.
+7. Aguarde a publicação no GitHub Actions e confira https://raphael-avilla.github.io/contato/
+
+IMPORTANTE SOBRE PRIVACIDADE
+O endereço de e-mail e o número de WhatsApp estarão visíveis ao público na internet.
+Se você não quiser divulgar algum desses dados, remova o respectivo cartão antes de publicar.
+
+O pacote traz a versão V5 completa mais a nova página de contato. Preserva o design das outras páginas.
