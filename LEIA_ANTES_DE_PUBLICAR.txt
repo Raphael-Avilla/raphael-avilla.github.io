@@ -1,0 +1,26 @@
+PORTFOLIO RAPHAEL AVILLA | MENU SIMPLIFICADO
+
+ESTA ATUALIZACAO MUDA SOMENTE O MENU LATERAL.
+
+1. Extraia o ZIP em uma pasta temporaria.
+2. Abra a pasta local do seu repositorio usando GitHub Desktop > Repository > Show in Explorer.
+3. Copie SOMENTE o arquivo zensical.toml extraido para a raiz do repositorio.
+4. Substitua o arquivo antigo quando o Windows solicitar.
+5. No GitHub Desktop, confira se apenas zensical.toml foi modificado.
+6. Clique em Commit to main e depois em Push origin.
+7. Confirme a publicacao na aba Actions do GitHub e atualize o site.
+
+O MENU FICARA:
+- Inicio
+- Sobre
+- Base de Conhecimento
+- Projetos Praticos
+- Contato
+
+Os artigos existentes NAO serao apagados. Eles continuarao disponiveis
+pelos links dos catalogos, das paginas tematicas e pela busca.
+
+IMPORTANTE
+Este ZIP traz apenas a configuracao e as instrucoes. Nao copie a pasta
+LEIA_ANTES_DE_PUBLICAR.txt para o projeto se nao desejar.
+Nao exclua nenhum arquivo da pasta docs.

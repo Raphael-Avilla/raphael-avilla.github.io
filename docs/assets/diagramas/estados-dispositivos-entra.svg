@@ -54,38 +54,45 @@
   <g font-size="18" fill="#a9bfd9" text-anchor="middle"><text x="700" y="345">Identidade do Entra ID</text><text x="700" y="374">para entrar no sistema</text></g>
   <text x="700" y="438" fill="#658cae" font-size="15" text-anchor="middle">Comum em equipamentos corporativos</text>
 
-  <!-- híbrido -->
-  <!-- cloud Entra ID -->
-  <g transform="translate(980,135)">
-    <path d="M62 86h145c26 0 47-20 47-44 0-23-19-42-43-44-9-18-29-31-52-31-17 0-33 8-43 20-8-6-18-10-29-10-27 0-49 20-49 45 0 4 1 8 2 12-21 3-37 20-37 41 0 23 20 41 44 41z" fill="#153e61" stroke="#5ebefd" stroke-width="3"/>
-    <text x="135" y="48" text-anchor="middle" fill="#bde7ff" font-size="22" font-weight="800">Entra ID</text>
+
+  <!-- Híbrido: composição aprovada, dimensionada no terceiro painel -->
+<svg x="944" y="29" width="424" height="442" viewBox="0 0 344 356" preserveAspectRatio="xMidYMid meet">
+<rect x="0.5" y="0.5" width="343" height="355" rx="16" fill="#173254" stroke="#2b4e76"/>
+<g font-family="Arial, Segoe UI, sans-serif">
+  <text x="24" y="37" fill="#76d7ff" font-size="14" font-weight="700" letter-spacing="1.4">INGRESSO HÍBRIDO</text>
+  <text x="24" y="60" fill="#d6e5f4" font-size="13">Conta do domínio local no Windows</text>
+
+  <!-- Microsoft Entra ID: nuvem à esquerda -->
+  <path d="M61 174 C44 174 31 163 31 149 C31 137 39 128 51 125
+           C50 122 50 119 50 117 C50 104 61 94 74 94
+           C81 94 88 97 94 102 C103 89 116 85 129 88
+           C143 90 153 100 156 113 C169 115 178 127 178 141
+           C178 160 163 174 145 174 H61 Z"
+        fill="#12324f" stroke="#6acbfa" stroke-width="2.8" stroke-linejoin="round"/>
+  <text x="103" y="139" fill="#e1f1ff" font-size="17" font-weight="700" text-anchor="middle">Entra ID</text>
+
+  <!-- AD DS: domínio local à direita -->
+  <path d="M271 101 L312 171 H230 Z" fill="#12324f" stroke="#6acbfa" stroke-width="2.8" stroke-linejoin="round"/>
+  <text x="271" y="149" fill="#e1f1ff" font-size="16" font-weight="700" text-anchor="middle">AD DS</text>
+
+  <!-- Linhas de vínculo. Cada uma termina na borda superior do PC. -->
+  <path d="M112 169 L112 189 L144 215" stroke="#80d8ff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M263 171 L263 190 L199 215" stroke="#80d8ff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Pontas das duas setas, encostadas na estrutura do PC. -->
+  <path d="M144 215 L133 211 L139 203 Z" fill="#80d8ff"/>
+  <path d="M199 215 L207 204 L211 214 Z" fill="#80d8ff"/>
+
+  <!-- Computador -->
+  <g stroke="#a4cce8" stroke-width="2.8" fill="#12304a" stroke-linejoin="round">
+    <rect x="133" y="217" width="78" height="55" rx="6"/>
+    <path d="M125 280 H219 L211 292 H133 Z"/>
   </g>
-  <!-- AD triangle -->
-  <g transform="translate(1200,155)">
-    <polygon points="70,0 140,112 0,112" fill="#16324b" stroke="#7cc8ff" stroke-width="3"/>
-    <text x="70" y="72" text-anchor="middle" fill="#d9efff" font-size="24" font-weight="800">AD DS</text>
-  </g>
-  <!-- laptop -->
-  <g stroke="#8bb9dd" fill="none" stroke-width="4" stroke-linejoin="round" transform="translate(1083,278)">
-    <rect x="0" y="0" width="118" height="86" rx="8"/>
-    <path d="M-13 97h144l-9 15H-4z"/>
-  </g>
-  <text x="1135" y="328" font-weight="700" font-size="20" fill="#dfecfb">PC</text>
-  <!-- lines -->
-  <g stroke="#78d6ff" stroke-width="4" fill="none" stroke-linecap="round">
-    <path d="M1088 255L1060 299" stroke-dasharray="6 8"/>
-    <path d="M1268 269L1198 309" stroke-dasharray="6 8"/>
-    <path d="M1178 163L1239 199"/>
-  </g>
-  <g fill="#78d6ff">
-    <path d="M1059 299l-1-15 13 8z"/>
-    <path d="M1198 309l-14-6 13-8z"/>
-    <path d="M1239 199l-15 2 8-13z"/>
-  </g>
-  <text x="1208" y="153" text-anchor="middle" fill="#7ad3ff" font-size="14" font-weight="700">Sincronização</text>
-  <g font-size="18" fill="#a9bfd9" text-anchor="middle">
-    <text x="1156" y="403">O mesmo dispositivo existe no domínio local</text>
-    <text x="1156" y="430">e também no Microsoft Entra ID</text>
-  </g>
+  <text x="172" y="251" fill="#f0f8ff" font-size="16" font-weight="700" text-anchor="middle">PC</text>
+
+  <text x="172" y="316" fill="#dfefff" font-size="12.8" text-anchor="middle">O mesmo dispositivo tem vínculo com o AD DS</text>
+  <text x="172" y="335" fill="#dfefff" font-size="12.8" text-anchor="middle">local e com o Microsoft Entra ID</text>
+</g>
+</svg>
 </g>
 </svg>

@@ -1,0 +1,18 @@
+ATUALIZACAO DO DIAGRAMA DE INGRESSO HIBRIDO
+
+Este pacote altera somente um arquivo:
+docs/assets/diagramas/estados-dispositivos-entra.svg
+
+A imagem e referenciada pelo artigo sobre registro, ingresso e ingresso hibrido.
+Nao e necessario modificar o artigo Markdown, a navegacao ou o tema.
+
+COMO PUBLICAR
+1. Extraia o ZIP.
+2. Copie a pasta docs para a raiz de seu repositorio local, substituindo o SVG existente.
+3. No GitHub Desktop, confira que apenas o SVG foi alterado.
+4. Crie o commit: Ajuste final do diagrama de ingresso hibrido.
+5. Clique em Push origin e confira o GitHub Actions.
+6. Abra o artigo e atualize a pagina com Ctrl+F5, se necessario.
+
+A composicao do ingresso hibrido utiliza exatamente o desenho aprovado,
+com as duas conexoes terminando no computador.

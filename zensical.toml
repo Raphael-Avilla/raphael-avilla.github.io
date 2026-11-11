@@ -10,24 +10,26 @@ repo_name = "Ver no GitHub"
 extra_css = ["stylesheets/extra.css", "stylesheets/artigos.css"]
 extra_javascript = ["javascripts/conhecimento.js", "javascripts/projetos.js"]
 
-# Para renomear páginas ou mover links do menu, edite esta lista.
+# O menu lateral inclui somente as cinco paginas principais do portal.
+# Artigos, tutoriais, procedimentos e projetos permanecem acessiveis
+# por meio dos catalogos, buscas e links internos, sem sobrecarregar o menu.
 nav = [
   { "Início" = "index.md" },
   { "Sobre" = "sobre.md" },
-  { "Base de conhecimento" = [
-    { "Visão geral" = "conhecimento/index.md" },
-    { "Microsoft Entra ID" = [
-      { "Registro, ingresso e híbrido" = "conhecimento/entra-id/registro-ingresso-hibrido.md" }
-    ] },
-    { "Microsoft Intune" = "conhecimento/intune/index.md" },
-    { "Microsoft Defender" = "conhecimento/defender/index.md" }
-  ] },
-  { "Projetos práticos" = [
-    { "Visão geral" = "projetos/index.md" }
-  ] },
-  { "Scripts e automações" = "scripts/index.md" },
+  { "Base de Conhecimento" = "conhecimento/index.md" },
+  { "Projetos Práticos" = "projetos/index.md" },
   { "Contato" = "contato.md" }
 ]
+
+# Suprime avisos de paginas propositalmente fora do menu.
+# Elas continuam sendo publicadas e indexadas na busca do Zensical.
+not_in_nav = """
+/conhecimento/entra-id/
+/conhecimento/intune/
+/conhecimento/defender/
+/projetos/
+/scripts/
+"""
 
 [project.theme]
 language = "pt-BR"
