@@ -7,7 +7,7 @@ site_author = "Raphael Avilla"
 site_url = "https://raphael-avilla.github.io/"
 repo_url = "https://github.com/Raphael-Avilla/raphael-avilla.github.io"
 repo_name = "Ver no GitHub"
-extra_css = ["stylesheets/extra.css"]
+extra_css = ["stylesheets/extra.css", "stylesheets/artigos.css"]
 extra_javascript = ["javascripts/conhecimento.js", "javascripts/projetos.js"]
 
 # Para renomear páginas ou mover links do menu, edite esta lista.
@@ -16,7 +16,10 @@ nav = [
   { "Sobre" = "sobre.md" },
   { "Base de conhecimento" = [
     { "Visão geral" = "conhecimento/index.md" },
-    { "Microsoft Entra ID" = "conhecimento/entra-id/index.md" },
+    { "Microsoft Entra ID" = [
+      { "Visão geral" = "conhecimento/entra-id/index.md" },
+      { "Registro, ingresso e híbrido" = "conhecimento/entra-id/registro-ingresso-hibrido.md" }
+    ] },
     { "Microsoft Intune" = "conhecimento/intune/index.md" },
     { "Microsoft Defender" = "conhecimento/defender/index.md" }
   ] },

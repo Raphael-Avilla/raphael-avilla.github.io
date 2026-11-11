@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "descricao": "Índice de artigos publicados na biblioteca técnica. Ainda não há materiais cadastrados.",
+  "descricao": "Índice de materiais efetivamente publicados na biblioteca técnica.",
   "categorias": [
     {
       "id": "entra",
@@ -23,5 +23,33 @@
       "icone": "PS"
     }
   ],
-  "materiais": []
+  "materiais": [
+    {
+      "titulo": "Registro, ingresso e ingresso híbrido no Microsoft Entra ID",
+      "descricao": "Entenda os três estados de identidade de dispositivos, seus cenários de uso e como verificar o vínculo no Windows.",
+      "categoria": "entra",
+      "tipo": "artigo",
+      "url": "entra-id/registro-ingresso-hibrido/",
+      "etiquetas": [
+        "Identidade de dispositivos",
+        "Fundamentos",
+        "Windows"
+      ],
+      "palavras_chave": [
+        "Microsoft Entra ID",
+        "registro",
+        "ingresso",
+        "ingresso híbrido",
+        "Entra registered",
+        "Entra joined",
+        "Hybrid joined",
+        "BYOD",
+        "dsregcmd",
+        "WorkplaceJoined",
+        "AzureAdJoined",
+        "DomainJoined",
+        "Intune"
+      ]
+    }
+  ]
 }
