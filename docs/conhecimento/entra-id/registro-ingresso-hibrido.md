@@ -28,7 +28,7 @@ hide:
       <div class="tech-section__heading"><span class="tech-section__number">01</span><div><p class="tech-section__kicker">ENTENDENDO O VÍNCULO</p><h2>O que muda entre os três estados?</h2></div></div>
       <figure class="tech-article__figure">
         <img src="/assets/diagramas/estados-dispositivos-entra.svg" width="1400" height="500" loading="lazy" alt="Comparação ilustrada de três estados: registro com conta pessoal ou local, ingresso com conta corporativa no Windows e ingresso híbrido com Active Directory local e Microsoft Entra ID." />
-        <figcaption>Diagrama conceitual elaborado para este artigo. Ele representa o vínculo de identidade de dispositivos Windows, não todo o fluxo de autenticação ou gerenciamento.</figcaption>
+        <figcaption>Diagrama conceitual elaborado para este artigo. Na coluna de ingresso híbrido, o mesmo dispositivo é representado em relação ao AD DS local e ao Microsoft Entra ID.</figcaption>
       </figure>
 
       <div class="tech-state-card" id="registrado">
@@ -122,6 +122,6 @@ hide:
       </ul>
       <p class="tech-article__caption">Artigo elaborado com base na documentação pública da Microsoft, consultada em novembro de 2026. Nomes de menus, requisitos e funcionalidades podem mudar ao longo do tempo.</p>
     </section>
-    <div class="tech-article__back"><a href="../">Voltar para Microsoft Entra ID <span aria-hidden="true">↗</span></a><a href="../../">Explorar Base de Conhecimento <span aria-hidden="true">↗</span></a></div>
+    <div class="tech-article__back"><a href="../../">Voltar para Base de Conhecimento <span aria-hidden="true">↗</span></a><a href="../../">Explorar Base de Conhecimento <span aria-hidden="true">↗</span></a></div>
   </div>
 </div>

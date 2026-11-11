@@ -17,7 +17,6 @@ nav = [
   { "Base de conhecimento" = [
     { "Visão geral" = "conhecimento/index.md" },
     { "Microsoft Entra ID" = [
-      { "Visão geral" = "conhecimento/entra-id/index.md" },
       { "Registro, ingresso e híbrido" = "conhecimento/entra-id/registro-ingresso-hibrido.md" }
     ] },
     { "Microsoft Intune" = "conhecimento/intune/index.md" },
